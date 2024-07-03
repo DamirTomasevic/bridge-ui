@@ -38,7 +38,7 @@ importers:
         version: 2.6.2(@types/react@18.3.2)(react@18.3.1)
       '@web3modal/wagmi':
         specifier: ^4.1.11
-        version: 4.1.11(@types/react@18.3.2)(@wagmi/connectors@4.3.5(@types/react@18.3.2)(@wagmi/core@2.9.3(@types/react@18.3.2)(bufferutil@4.0.8)(react@18.3.1)(typescript@5.4.5)(viem@2.10.2(bufferutil@4.0.8)(typescript@5.4.5)(zod@3.23.8))(zod@3.23.8))(bufferutil@4.0.8)(encoding@0.1.13)(react-dom@18.3.1(react@18.3.1))(react-i18next@13.5.0(i18next@22.5.1)(react-dom@18.3.1(react@18.3.1))(react-native@0.74.1(@babel/core@7.24.5)(@babel/preset-env@7.24.5(@babel/core@7.24.5))(@types/react@18.3.2)(bufferutil@4.0.8)(encoding@0.1.13)(react@18.3.1))(react@18.3.1))(react-native@0.74.1(@babel/core@7.24.5)(@babel/preset-env@7.24.5(@babel/core@7.24.5))(@types/react@18.3.2)(bufferutil@4.0.8)(encoding@0.1.13)(react@18.3.1))(react@18.3.1)(rollup@4.17.2)(typescript@5.4.5)(viem@2.10.2(bufferutil@4.0.8)(typescript@5.4.5)(zod@3.23.8))(zod@3.23.8))(@wagmi/core@2.9.3(@types/react@18.3.2)(bufferutil@4.0.8)(react@18.3.1)(typescript@5.4.5)(viem@2.10.2(bufferutil@4.0.8)(typescript@5.4.5)(zod@3.23.8))(zod@3.23.8))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(viem@2.10.2(bufferutil@4.0.8)(typescript@5.4.5)(zod@3.23.8))
+        version: 4.1.11(hpcgh6g2rvdmo45vj2dlv7p2i4)
       '@zerodevx/svelte-toast':
         specifier: ^0.9.5
         version: 0.9.5(svelte@4.2.16)
@@ -95,8 +95,8 @@ importers:
         specifier: ^1.4.0
         version: 1.6.0(vitest@1.6.0(@types/node@20.12.11)(jsdom@24.0.0(bufferutil@4.0.8))(terser@5.31.0))
       '@wagmi/cli':
-        specifier: ^2.1.4
-        version: 2.1.4(bufferutil@4.0.8)(typescript@5.4.5)
+        specifier: ^2.1.13
+        version: 2.1.13(bufferutil@4.0.8)(typescript@5.4.5)
       abitype:
         specifier: ^1.0.2
         version: 1.0.2(typescript@5.4.5)(zod@3.23.8)
@@ -334,10 +334,10 @@ importers:
         version: 16.4.5
       ds-test:
         specifier: github:dapphub/ds-test#e282159d5170298eb2455a6c05280ab5a73a4ef0
-        version: https://codeload.github.com/dapphub/ds-test/tar.gz/e282159d5170298eb2455a6c05280ab5a73a4ef0
+        version: git+https://git@github.com:dapphub/ds-test.git#e282159d5170298eb2455a6c05280ab5a73a4ef0
       forge-std:
         specifier: github:foundry-rs/forge-std
-        version: https://codeload.github.com/foundry-rs/forge-std/tar.gz/52715a217dc51d0de15877878ab8213f6cbbbab5
+        version: git+https://git@github.com:foundry-rs/forge-std.git#07263d193d621c4b2b0ce8b4d54af58f6957d97d
       ipfs-http-client:
         specifier: ^60.0.1
         version: 60.0.1(encoding@0.1.13)
@@ -346,19 +346,19 @@ importers:
         version: 0.3.11
       murky:
         specifier: github:dmfxyz/murky
-        version: https://codeload.github.com/dmfxyz/murky/tar.gz/5feccd1253d7da820f7cccccdedf64471025455d
+        version: git+https://git@github.com:dmfxyz/murky.git#5feccd1253d7da820f7cccccdedf64471025455d
       p256-verifier:
         specifier: github:taikoxyz/p256-verifier#v0.1.0
-        version: p256-verifier#v0.1.0@https://codeload.github.com/taikoxyz/p256-verifier/tar.gz/6ef45b117642786b08a37b4c37c6a6ce151166da
+        version: p256-verifier#v0.1.0@git+https://git@github.com:taikoxyz/p256-verifier.git#6ef45b117642786b08a37b4c37c6a6ce151166da
       sharp:
         specifier: ^0.33.3
         version: 0.33.3
       solady:
         specifier: github:Vectorized/solady#v0.0.167
-        version: https://codeload.github.com/Vectorized/solady/tar.gz/de0f336d2033d04e0f77c923d639c7fbffd48b6d
+        version: git+https://git@github.com:Vectorized/solady.git#de0f336d2033d04e0f77c923d639c7fbffd48b6d
       solidity-stringutils:
         specifier: github:Arachnid/solidity-stringutils
-        version: https://codeload.github.com/Arachnid/solidity-stringutils/tar.gz/4b2fcc43fa0426e19ce88b1f1ec16f5903a2e461
+        version: git+https://git@github.com:Arachnid/solidity-stringutils.git#4b2fcc43fa0426e19ce88b1f1ec16f5903a2e461
     devDependencies:
       '@types/node':
         specifier: ^20.11.30
@@ -416,19 +416,19 @@ importers:
         version: 4.9.6
       ds-test:
         specifier: github:dapphub/ds-test#e282159d5170298eb2455a6c05280ab5a73a4ef0
-        version: https://codeload.github.com/dapphub/ds-test/tar.gz/e282159d5170298eb2455a6c05280ab5a73a4ef0
+        version: git+https://git@github.com:dapphub/ds-test.git#e282159d5170298eb2455a6c05280ab5a73a4ef0
       forge-std:
         specifier: github:foundry-rs/forge-std#v1.7.5
-        version: https://codeload.github.com/foundry-rs/forge-std/tar.gz/36c303b7ffdd842d06b1ec2744c9b9b5fb3083f3
+        version: git+https://git@github.com:foundry-rs/forge-std.git#36c303b7ffdd842d06b1ec2744c9b9b5fb3083f3
       merkletreejs:
         specifier: ^0.3.11
         version: 0.3.11
       p256-verifier:
         specifier: github:taikoxyz/p256-verifier#v0.1.0
-        version: p256-verifier#v0.1.0@https://codeload.github.com/taikoxyz/p256-verifier/tar.gz/6ef45b117642786b08a37b4c37c6a6ce151166da
+        version: p256-verifier#v0.1.0@git+https://git@github.com:taikoxyz/p256-verifier.git#6ef45b117642786b08a37b4c37c6a6ce151166da
       solady:
         specifier: github:Vectorized/solady#v0.0.167
-        version: https://codeload.github.com/Vectorized/solady/tar.gz/de0f336d2033d04e0f77c923d639c7fbffd48b6d
+        version: git+https://git@github.com:Vectorized/solady.git#de0f336d2033d04e0f77c923d639c7fbffd48b6d
     devDependencies:
       '@types/node':
         specifier: ^20.11.30
@@ -484,8 +484,8 @@ importers:
         specifier: ^1.0.6
         version: 1.0.6
       '@wagmi/cli':
-        specifier: ^2.1.8
-        version: 2.1.8(bufferutil@4.0.8)(typescript@5.4.5)
+        specifier: ^2.1.13
+        version: 2.1.13(bufferutil@4.0.8)(typescript@5.4.5)
       '@wagmi/connectors':
         specifier: ^5.0.6
         version: 5.0.6(@types/react@18.3.2)(@wagmi/core@2.10.4(@types/react@18.3.2)(bufferutil@4.0.8)(react@18.3.1)(typescript@5.4.5)(viem@2.13.1(bufferutil@4.0.8)(typescript@5.4.5)(zod@3.23.8))(zod@3.23.8))(bufferutil@4.0.8)(encoding@0.1.13)(react-dom@18.3.1(react@18.3.1))(react-i18next@13.5.0(i18next@22.5.1)(react-dom@18.3.1(react@18.3.1))(react-native@0.74.1(@babel/core@7.24.5)(@babel/preset-env@7.24.5(@babel/core@7.24.5))(@types/react@18.3.2)(bufferutil@4.0.8)(encoding@0.1.13)(react@18.3.1))(react@18.3.1))(react-native@0.74.1(@babel/core@7.24.5)(@babel/preset-env@7.24.5(@babel/core@7.24.5))(@types/react@18.3.2)(bufferutil@4.0.8)(encoding@0.1.13)(react@18.3.1))(react@18.3.1)(rollup@4.17.2)(typescript@5.4.5)(viem@2.13.1(bufferutil@4.0.8)(typescript@5.4.5)(zod@3.23.8))(zod@3.23.8)
@@ -500,7 +500,7 @@ importers:
         version: 4.2.2
       '@web3modal/wagmi':
         specifier: ^4.2.2
-        version: 4.2.2(@types/react@18.3.2)(@wagmi/connectors@5.0.6(@types/react@18.3.2)(@wagmi/core@2.10.4(@types/react@18.3.2)(bufferutil@4.0.8)(react@18.3.1)(typescript@5.4.5)(viem@2.13.1(bufferutil@4.0.8)(typescript@5.4.5)(zod@3.23.8))(zod@3.23.8))(bufferutil@4.0.8)(encoding@0.1.13)(react-dom@18.3.1(react@18.3.1))(react-i18next@13.5.0(i18next@22.5.1)(react-dom@18.3.1(react@18.3.1))(react-native@0.74.1(@babel/core@7.24.5)(@babel/preset-env@7.24.5(@babel/core@7.24.5))(@types/react@18.3.2)(bufferutil@4.0.8)(encoding@0.1.13)(react@18.3.1))(react@18.3.1))(react-native@0.74.1(@babel/core@7.24.5)(@babel/preset-env@7.24.5(@babel/core@7.24.5))(@types/react@18.3.2)(bufferutil@4.0.8)(encoding@0.1.13)(react@18.3.1))(react@18.3.1)(rollup@4.17.2)(typescript@5.4.5)(viem@2.13.1(bufferutil@4.0.8)(typescript@5.4.5)(zod@3.23.8))(zod@3.23.8))(@wagmi/core@2.10.4(@types/react@18.3.2)(bufferutil@4.0.8)(react@18.3.1)(typescript@5.4.5)(viem@2.13.1(bufferutil@4.0.8)(typescript@5.4.5)(zod@3.23.8))(zod@3.23.8))(bufferutil@4.0.8)(encoding@0.1.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(viem@2.13.1(bufferutil@4.0.8)(typescript@5.4.5)(zod@3.23.8))
+        version: 4.2.2(tkj5l3k7464ue4eznlfplmov7u)
       '@zerodevx/svelte-toast':
         specifier: ^0.9.5
         version: 0.9.5(svelte@4.2.16)
@@ -642,19 +642,19 @@ importers:
         version: 4.9.6
       ds-test:
         specifier: github:dapphub/ds-test#e282159d5170298eb2455a6c05280ab5a73a4ef0
-        version: https://codeload.github.com/dapphub/ds-test/tar.gz/e282159d5170298eb2455a6c05280ab5a73a4ef0
+        version: git+https://git@github.com:dapphub/ds-test.git#e282159d5170298eb2455a6c05280ab5a73a4ef0
       forge-std:
         specifier: github:foundry-rs/forge-std#v1.7.5
-        version: https://codeload.github.com/foundry-rs/forge-std/tar.gz/36c303b7ffdd842d06b1ec2744c9b9b5fb3083f3
+        version: git+https://git@github.com:foundry-rs/forge-std.git#36c303b7ffdd842d06b1ec2744c9b9b5fb3083f3
       merkletreejs:
         specifier: ^0.3.11
         version: 0.3.11
       p256-verifier:
         specifier: github:taikoxyz/p256-verifier#v0.1.0
-        version: p256-verifier#v0.1.0@https://codeload.github.com/taikoxyz/p256-verifier/tar.gz/6ef45b117642786b08a37b4c37c6a6ce151166da
+        version: p256-verifier#v0.1.0@git+https://git@github.com:taikoxyz/p256-verifier.git#6ef45b117642786b08a37b4c37c6a6ce151166da
       solady:
         specifier: github:Vectorized/solady#v0.0.167
-        version: https://codeload.github.com/Vectorized/solady/tar.gz/de0f336d2033d04e0f77c923d639c7fbffd48b6d
+        version: git+https://git@github.com:Vectorized/solady.git#de0f336d2033d04e0f77c923d639c7fbffd48b6d
     devDependencies:
       '@types/node':
         specifier: ^20.11.30
@@ -713,8 +713,8 @@ importers:
         specifier: workspace:*
         version: link:../ui-lib
       '@wagmi/cli':
-        specifier: ^2.1.4
-        version: 2.1.4(bufferutil@4.0.8)(typescript@5.4.5)
+        specifier: ^2.1.13
+        version: 2.1.13(bufferutil@4.0.8)(typescript@5.4.5)
       '@wagmi/connectors':
         specifier: ^4.1.18
         version: 4.3.5(@types/react@18.3.2)(@wagmi/core@2.9.3(@types/react@18.3.2)(bufferutil@4.0.8)(react@18.3.1)(typescript@5.4.5)(viem@2.16.1(bufferutil@4.0.8)(typescript@5.4.5)(zod@3.23.8))(zod@3.23.8))(bufferutil@4.0.8)(encoding@0.1.13)(react-dom@18.3.1(react@18.3.1))(react-i18next@13.5.0(i18next@22.5.1)(react-dom@18.3.1(react@18.3.1))(react-native@0.74.1(@babel/core@7.24.5)(@babel/preset-env@7.24.5(@babel/core@7.24.5))(@types/react@18.3.2)(bufferutil@4.0.8)(encoding@0.1.13)(react@18.3.1))(react@18.3.1))(react-native@0.74.1(@babel/core@7.24.5)(@babel/preset-env@7.24.5(@babel/core@7.24.5))(@types/react@18.3.2)(bufferutil@4.0.8)(encoding@0.1.13)(react@18.3.1))(react@18.3.1)(rollup@4.17.2)(typescript@5.4.5)(viem@2.16.1(bufferutil@4.0.8)(typescript@5.4.5)(zod@3.23.8))(zod@3.23.8)
@@ -729,7 +729,7 @@ importers:
         version: 4.1.11
       '@web3modal/wagmi':
         specifier: ^4.1.1
-        version: 4.1.11(@types/react@18.3.2)(@wagmi/connectors@4.3.5(@types/react@18.3.2)(@wagmi/core@2.9.3(@types/react@18.3.2)(bufferutil@4.0.8)(react@18.3.1)(typescript@5.4.5)(viem@2.16.1(bufferutil@4.0.8)(typescript@5.4.5)(zod@3.23.8))(zod@3.23.8))(bufferutil@4.0.8)(encoding@0.1.13)(react-dom@18.3.1(react@18.3.1))(react-i18next@13.5.0(i18next@22.5.1)(react-dom@18.3.1(react@18.3.1))(react-native@0.74.1(@babel/core@7.24.5)(@babel/preset-env@7.24.5(@babel/core@7.24.5))(@types/react@18.3.2)(bufferutil@4.0.8)(encoding@0.1.13)(react@18.3.1))(react@18.3.1))(react-native@0.74.1(@babel/core@7.24.5)(@babel/preset-env@7.24.5(@babel/core@7.24.5))(@types/react@18.3.2)(bufferutil@4.0.8)(encoding@0.1.13)(react@18.3.1))(react@18.3.1)(rollup@4.17.2)(typescript@5.4.5)(viem@2.16.1(bufferutil@4.0.8)(typescript@5.4.5)(zod@3.23.8))(zod@3.23.8))(@wagmi/core@2.9.3(@types/react@18.3.2)(bufferutil@4.0.8)(react@18.3.1)(typescript@5.4.5)(viem@2.16.1(bufferutil@4.0.8)(typescript@5.4.5)(zod@3.23.8))(zod@3.23.8))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(viem@2.16.1(bufferutil@4.0.8)(typescript@5.4.5)(zod@3.23.8))
+        version: 4.1.11(2u7o5rhjvzr5px7ragqvzuquvy)
       '@zerodevx/svelte-toast':
         specifier: ^0.9.5
         version: 0.9.5(svelte@4.2.16)
@@ -2724,10 +2724,12 @@ packages:
   '@humanwhocodes/config-array@0.11.14':
     resolution: {integrity: sha512-3T8LkOmg45BV5FICb15QQMsyUSWrQ8AygVfC7ZG32zOalnqrilm018ZVCw0eapXux8FtA33q8PSRSstjee3jSg==}
     engines: {node: '>=10.10.0'}
+    deprecated: Use @eslint/config-array instead
 
   '@humanwhocodes/config-array@0.9.5':
     resolution: {integrity: sha512-ObyMyWxZiCu/yTisA7uzx81s40xR2fD5Cg/2Kq7G02ajkNubJf6BopgDTmDyc3U7sXpNKM8cYOw7s7Tyr+DnCw==}
     engines: {node: '>=10.10.0'}
+    deprecated: Use @eslint/config-array instead
 
   '@humanwhocodes/module-importer@1.0.1':
     resolution: {integrity: sha512-bxveV4V8v5Yb4ncFTT3rPSgZBOpCkjfK0y4oVVVJwIuDVBRMDXrPyXRL988i5ap9m9bnyEEjWfm5WkBmtffLfA==}
@@ -2739,9 +2741,11 @@ packages:
 
   '@humanwhocodes/object-schema@1.2.1':
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
+    deprecated: Use @eslint/object-schema instead
 
   '@humanwhocodes/object-schema@2.0.3':
     resolution: {integrity: sha512-93zYdMES/c1D69yZiKDBj0V24vqNzB/koF26KPaagAfd3P/4gUlh3Dys5ogAK+Exi9QyzlD8x/08Zt7wIKcDcA==}
+    deprecated: Use @eslint/object-schema instead
 
   '@img/sharp-darwin-arm64@0.33.3':
     resolution: {integrity: sha512-FaNiGX1MrOuJ3hxuNzWgsT/mg5OHG/Izh59WW2mk1UwYHUwtfbhk5QNKYZgxf0pLOhx9ctGiGa2OykD71vOnSw==}
@@ -4728,17 +4732,8 @@ packages:
   '@vscode/l10n@0.0.18':
     resolution: {integrity: sha512-KYSIHVmslkaCDyw013pphY+d7x1qV8IZupYfeIfzNA+nsaWHbn5uPuQRvdRFsa9zFzGeudPuoGoZ1Op4jrJXIQ==}
 
-  '@wagmi/cli@2.1.4':
-    resolution: {integrity: sha512-vamvEo/GeBjFxb5oZCvby4YZDOrK/RqD+tcWb5X0pqmJDyWbN2Mkv9DYTtVB+OtfVUzFKciN/8Vhw8luMtOJbw==}
-    hasBin: true
-    peerDependencies:
-      typescript: '>=5.0.4'
-    peerDependenciesMeta:
-      typescript:
-        optional: true
-
-  '@wagmi/cli@2.1.8':
-    resolution: {integrity: sha512-607a+1ZjeIThHpENuIUJkeFjyRroai4H5TcW8jBJPfKqkWTFRah1Co7h9eOfIZzLd9FyWK+YOHH1PL+Jea8Alg==}
+  '@wagmi/cli@2.1.13':
+    resolution: {integrity: sha512-0lQILHXj7IZfivMa5yEN1OWu5dF17iCgIHOKaPNMMcB9uem+2oEumJEaj0EezZZXLZLNN/lbI7A4TCXNYuoEDg==}
     hasBin: true
     peerDependencies:
       typescript: '>=5.0.4'
@@ -5023,17 +5018,6 @@ packages:
     resolution: {integrity: sha512-JLeB/oRdJfT+dz9A5bgd3Z7TuQnBQbeUtXrGIrNWMGqWbabpepBF2KxtWVhL2qtxpRqhae2f6NAOzH7xs4jUSw==}
     peerDependencies:
       svelte: ^3.57.0 || ^4.0.0
-
-  abitype@0.9.10:
-    resolution: {integrity: sha512-FIS7U4n7qwAT58KibwYig5iFG4K61rbhAqaQh/UWj8v1Y8mjX3F8TC9gd8cz9yT1TYel9f8nS5NO5kZp2RW0jQ==}
-    peerDependencies:
-      typescript: '>=5.0.4'
-      zod: ^3 >=3.22.0
-    peerDependenciesMeta:
-      typescript:
-        optional: true
-      zod:
-        optional: true
 
   abitype@0.9.8:
     resolution: {integrity: sha512-puLifILdm+8sjyss4S+fsUN09obiT1g2YW6CtcQF+QDzxR0euzgEB29MZujC6zMk2a6SVmtttq1fc6+YFA7WYQ==}
@@ -5558,9 +5542,6 @@ packages:
     resolution: {integrity: sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==}
     engines: {node: '>=6'}
 
-  camel-case@4.1.2:
-    resolution: {integrity: sha512-gxGWBrTT1JuMx6R+o5PTXMmUnhnVzLQ9SNutD4YqKtI6ap897t3tKECYla6gCWEkplXnlNybEkZg9GEGxKFCgw==}
-
   camelcase-css@2.0.1:
     resolution: {integrity: sha512-QOSvevhslijgYwRx6Rv7zKdMF8lbRmx+uQGx2+vDc+KI/eBnsy9kit5aj23AgGu3pa4t9AgwbnXWqS+iOY+2aA==}
     engines: {node: '>= 6'}
@@ -5582,9 +5563,6 @@ packages:
 
   canvaskit-wasm@0.39.1:
     resolution: {integrity: sha512-Gy3lCmhUdKq+8bvDrs9t8+qf7RvcjuQn+we7vTVVyqgOVO1UVfHpsnBxkTZw+R4ApEJ3D5fKySl9TU11hmjl/A==}
-
-  capital-case@1.0.4:
-    resolution: {integrity: sha512-ds37W8CytHgwnhGGTi88pcPyR15qoNkOpYwmMMfnWqqWgESapLqvDx6huFjQ5vqWSn2Z06173XNA7LtMOeUh1A==}
 
   cborg@4.2.0:
     resolution: {integrity: sha512-q6cFW5m3KxfP/9xGI3yGLaC1l5DP6DWM9IvjiJojnIwohL5CQDl02EXViPV852mOfQo+7PJGPN01MI87vFGzyA==}
@@ -5613,8 +5591,8 @@ packages:
     resolution: {integrity: sha512-dLitG79d+GV1Nb/VYcCDFivJeK1hiukt9QjRNVOsUtTy1rR1YJsmpGGTZ3qJos+uw7WmWF4wUwBd9jxjocFC2w==}
     engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
 
-  change-case@4.1.2:
-    resolution: {integrity: sha512-bSxY2ws9OtviILG1EiY5K7NNxkqg/JnRnFxLtKQ96JaviiIxi7djMrSd0ECT9AC+lttClmYwKw53BWpOMblo7A==}
+  change-case@5.4.4:
+    resolution: {integrity: sha512-HRQyTk2/YPEkt9TnUPbOpr64Uw3KOicFWPVBb+xiHvd6eBx/qPr9xqfBFDT8P2vWsvvz4jbEkfDe71W3VyNu2w==}
 
   character-entities-html4@2.1.0:
     resolution: {integrity: sha512-1v7fgQRj6hnSwFpq1Eu0ynr/CDEw0rXo2B61qXrLNdHZmPKgb7fqS1a2JwF0rISo9q77jDI8VMEHoApn8qDoZA==}
@@ -5830,9 +5808,6 @@ packages:
   consola@3.2.3:
     resolution: {integrity: sha512-I5qxpzLv+sJhTVEoLYNcTW+bThDCPsit0vLNKShZx6rLtpilNpmmeTPaeqJb9ZE9dV3DGaeby6Vuhrw38WjeyQ==}
     engines: {node: ^14.18.0 || >=16.10.0}
-
-  constant-case@3.0.4:
-    resolution: {integrity: sha512-I2hSBi7Vvs7BEuJDr5dDHfzb/Ruj3FyvFyh7KLilAjNQw3Be+xgqUBA2W6scVEcL0hL1dwPRtIqEPVUCKkSsyQ==}
 
   content-disposition@0.5.4:
     resolution: {integrity: sha512-FveZTNuGw04cxlAiWbzi6zTAL/lhehaWbTtgluJh4/E95DqMwTmha3KZN1aAWA8cFIhHzMZUvLevkw5Rqk+tSQ==}
@@ -6210,9 +6185,6 @@ packages:
   domutils@2.8.0:
     resolution: {integrity: sha512-w96Cjofp72M5IIhpjgobBimYEfoPjx1Vx0BSX9P30WBdZW2WIKU0T1Bd0kz2eNZ9ikjKgHbEyKx8BB6H1L3h3A==}
 
-  dot-case@3.0.4:
-    resolution: {integrity: sha512-Kv5nKlh6yRrdrGvxeJ2e5y2eRUpkUosIW4A2AS38zwSz27zu7ufDwQPi5Jhs3XAlGNetl3bmnGhQsMtkKJnj3w==}
-
   dotenv-expand@10.0.0:
     resolution: {integrity: sha512-GopVGCpVS1UKH75VKHGuQFqS1Gusej0z4FyQkPdwjil2gNIv+LNsqBlboOzpJFZKVT95GkCyWJbBSdFEFUWI2A==}
     engines: {node: '>=12'}
@@ -6221,8 +6193,8 @@ packages:
     resolution: {integrity: sha512-ZmdL2rui+eB2YwhsWzjInR8LldtZHGDoQ1ugH85ppHKwpUHL7j7rN0Ti9NCnGiQbhaZ11FpR+7ao1dNsmduNUg==}
     engines: {node: '>=12'}
 
-  ds-test@https://codeload.github.com/dapphub/ds-test/tar.gz/e282159d5170298eb2455a6c05280ab5a73a4ef0:
-    resolution: {tarball: https://codeload.github.com/dapphub/ds-test/tar.gz/e282159d5170298eb2455a6c05280ab5a73a4ef0}
+  ds-test@git+https://git@github.com:dapphub/ds-test.git#e282159d5170298eb2455a6c05280ab5a73a4ef0:
+    resolution: {commit: e282159d5170298eb2455a6c05280ab5a73a4ef0, repo: git@github.com:dapphub/ds-test.git, type: git}
     version: 1.0.0
 
   dset@3.1.3:
@@ -6786,6 +6758,14 @@ packages:
   fb-watchman@2.0.2:
     resolution: {integrity: sha512-p5161BqbuCaSnB8jIbzQHOlpgsPmK5rJVDfDKO91Axs5NC1uu3HRQm6wt9cd9/+GtQQIO53JdGXXoyDpTAsgYA==}
 
+  fdir@6.1.1:
+    resolution: {integrity: sha512-QfKBVg453Dyn3mr0Q0O+Tkr1r79lOTAKSi9f/Ot4+qVEwxWhav2Z+SudrG9vQjM2aYRMQQZ2/Q1zdA8ACM1pDg==}
+    peerDependencies:
+      picomatch: 3.x
+    peerDependenciesMeta:
+      picomatch:
+        optional: true
+
   fetch-retry@5.0.6:
     resolution: {integrity: sha512-3yurQZ2hD9VISAhJJP9bpYFNQrHHBXE2JxxjY5aLEcDi46RmAzJE2OC9FAde0yis5ElW0jTTzs0zfg/Cca4XqQ==}
 
@@ -6884,13 +6864,13 @@ packages:
     resolution: {integrity: sha512-TMKDUnIte6bfb5nWv7V/caI169OHgvwjb7V4WkeUvbQQdjr5rWKqHFiKWb/fcOwB+CzBT+qbWjvj+DVwRskpIg==}
     engines: {node: '>=14'}
 
-  forge-std@https://codeload.github.com/foundry-rs/forge-std/tar.gz/36c303b7ffdd842d06b1ec2744c9b9b5fb3083f3:
-    resolution: {tarball: https://codeload.github.com/foundry-rs/forge-std/tar.gz/36c303b7ffdd842d06b1ec2744c9b9b5fb3083f3}
-    version: 1.7.5
+  forge-std@git+https://git@github.com:foundry-rs/forge-std.git#07263d193d621c4b2b0ce8b4d54af58f6957d97d:
+    resolution: {commit: 07263d193d621c4b2b0ce8b4d54af58f6957d97d, repo: git@github.com:foundry-rs/forge-std.git, type: git}
+    version: 1.9.1
 
-  forge-std@https://codeload.github.com/foundry-rs/forge-std/tar.gz/52715a217dc51d0de15877878ab8213f6cbbbab5:
-    resolution: {tarball: https://codeload.github.com/foundry-rs/forge-std/tar.gz/52715a217dc51d0de15877878ab8213f6cbbbab5}
-    version: 1.8.2
+  forge-std@git+https://git@github.com:foundry-rs/forge-std.git#36c303b7ffdd842d06b1ec2744c9b9b5fb3083f3:
+    resolution: {commit: 36c303b7ffdd842d06b1ec2744c9b9b5fb3083f3, repo: git@github.com:foundry-rs/forge-std.git, type: git}
+    version: 1.7.5
 
   form-data-encoder@2.1.4:
     resolution: {integrity: sha512-yDYSgNMraqvnxiEXO4hi88+YZxaHC6QKzb5N84iRCTDeRO7ZALpir/lVmf/uXUhnwUr2O4HU8s/n6x+yNjQkHw==}
@@ -7033,10 +7013,12 @@ packages:
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
+    deprecated: Glob versions prior to v9 are no longer supported
 
   glob@8.1.0:
     resolution: {integrity: sha512-r8hpEjiQEYlF2QU0df3dS+nxxSIreXQS1qRhMJM0Q5NDdR386C7jb7Hwwod8Fgiuex+k0GFjgft18yvxm5XoCQ==}
     engines: {node: '>=12'}
+    deprecated: Glob versions prior to v9 are no longer supported
 
   globals@11.12.0:
     resolution: {integrity: sha512-WOBp/EEGUiIsJSp7wcv/y6MO+lV9UoncWqxuFfm8eBwzWNgyfBd6Gz+IeKQ9jCmyhoH99g15M3T+QaVHFjizVA==}
@@ -7056,10 +7038,6 @@ packages:
   globby@11.1.0:
     resolution: {integrity: sha512-jhIXaOzy1sb8IyocaruWSn1TjmnBVs8Ayhcy83rmxNJ8q2uWKCAj3CnJY+KpGSXCueAPc0i05kVvVKtP1t9S3g==}
     engines: {node: '>=10'}
-
-  globby@13.2.2:
-    resolution: {integrity: sha512-Y1zNGV+pzQdh7H39l9zgB4PJqjRNqydvdYCDG4HFXM4XuvSaQQlEc91IU1yALL8gUTDomgBAfz3XJdmUS+oo0w==}
-    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
 
   globby@14.0.1:
     resolution: {integrity: sha512-jOMLD2Z7MAhyG8aJpNOpmziMOP4rPLcc95oQPKXBazW82z+CEgPFBQvEpRUa1KeIMUJo4Wsm+q6uzO/Q/4BksQ==}
@@ -7194,9 +7172,6 @@ packages:
   hastscript@9.0.0:
     resolution: {integrity: sha512-jzaLBGavEDKHrc5EfFImKN7nZKKBdSLIdGvCwDZ9TfzbF2ffXiov8CKE445L2Z1Ek2t/m4SKQ2j6Ipv7NyUolw==}
 
-  header-case@2.0.4:
-    resolution: {integrity: sha512-H/vuk5TEEVZwrR0lp2zed9OCo1uAILMlx0JEMgC26rzyJJ3N1v6XkwHHXJQdR2doSjcGPM6OKPYoJgf0plJ11Q==}
-
   hermes-estree@0.19.1:
     resolution: {integrity: sha512-daLGV3Q2MKk8w4evNMKwS8zBE/rcpA800nu1Q5kM08IKijoSnPe9Uo1iIxzPKRkn95IxxsgBMPeYHt3VG4ej2g==}
 
@@ -7330,6 +7305,7 @@ packages:
 
   inflight@1.0.6:
     resolution: {integrity: sha512-k92I/b08q4wvFscXCLvqfsHCrjrF7yiXsQuIVvVE7N82W3+aqpzuUdBbfhWcy/FZR3/4IgflMgKLOsvPDrGCJA==}
+    deprecated: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
 
   inherits@2.0.4:
     resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
@@ -8591,8 +8567,8 @@ packages:
   multiformats@9.9.0:
     resolution: {integrity: sha512-HoMUjhH9T8DDBNT+6xzkrd9ga/XiBI4xLr58LJACwK6G3HTOPeMz4nB4KJs33L2BelrIJa7P0VuNaVF3hMYfjg==}
 
-  murky@https://codeload.github.com/dmfxyz/murky/tar.gz/5feccd1253d7da820f7cccccdedf64471025455d:
-    resolution: {tarball: https://codeload.github.com/dmfxyz/murky/tar.gz/5feccd1253d7da820f7cccccdedf64471025455d}
+  murky@git+https://git@github.com:dmfxyz/murky.git#5feccd1253d7da820f7cccccdedf64471025455d:
+    resolution: {commit: 5feccd1253d7da820f7cccccdedf64471025455d, repo: git@github.com:dmfxyz/murky.git, type: git}
     version: 0.0.0
 
   mz@2.7.0:
@@ -8921,8 +8897,8 @@ packages:
     resolution: {integrity: sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==}
     engines: {node: '>=6'}
 
-  p256-verifier#v0.1.0@https://codeload.github.com/taikoxyz/p256-verifier/tar.gz/6ef45b117642786b08a37b4c37c6a6ce151166da:
-    resolution: {tarball: https://codeload.github.com/taikoxyz/p256-verifier/tar.gz/6ef45b117642786b08a37b4c37c6a6ce151166da}
+  p256-verifier#v0.1.0@git+https://git@github.com:taikoxyz/p256-verifier.git#6ef45b117642786b08a37b4c37c6a6ce151166da:
+    resolution: {commit: 6ef45b117642786b08a37b4c37c6a6ce151166da, repo: git@github.com:taikoxyz/p256-verifier.git, type: git}
     version: 0.0.0
 
   package-json@8.1.1:
@@ -8935,9 +8911,6 @@ packages:
 
   pako@0.2.9:
     resolution: {integrity: sha512-NUcwaKxUxWrZLpDG+z/xZaCgQITkA/Dv4V/T6bw7VON6l1Xz/VnrBqrYjZQ12TamKHzITTfOEIYUj48y2KXImA==}
-
-  param-case@3.0.4:
-    resolution: {integrity: sha512-RXlj7zCYokReqWpOPH9oYivUzLYZ5vAPIfEmCTNViosC78F8F0H9y7T7gG2M39ymgutxF5gcFEsyZQSph9Bp3A==}
 
   parent-module@1.0.1:
     resolution: {integrity: sha512-GQ2EWRpQV8/o+Aw8YqtfZZPfNRWZYkbidE9k5rpl/hC3vtHHBfGm2Ifi6qWV+coDGkrUKZAxE3Lot5kcsRlh+g==}
@@ -8972,9 +8945,6 @@ packages:
 
   path-browserify@1.0.1:
     resolution: {integrity: sha512-b7uo2UCUOYZcnF/3ID0lulOJi/bafxa1xPe7ZPsammBSpjSWQkjNxlt635YGS2MiR9GjvuXCtz2emr3jbsz98g==}
-
-  path-case@3.0.4:
-    resolution: {integrity: sha512-qO4qCFjXqVTrcbPt/hQfhTQ+VhFsqNKOPtytgNKkKxSoEp3XPUQ8ObFuePylOIok5gjn69ry8XiULxCwot3Wfg==}
 
   path-exists@3.0.0:
     resolution: {integrity: sha512-bpC7GYwiDYQ4wYLe+FA8lhRjhQCMcQGuSgGGqDkg/QerRWw9CmGRT0iSOVRSZJ29NMLZgIzqaljJ63oaL4NIJQ==}
@@ -9043,6 +9013,10 @@ packages:
   picomatch@2.3.1:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
     engines: {node: '>=8.6'}
+
+  picomatch@3.0.1:
+    resolution: {integrity: sha512-I3EurrIQMlRc9IaAZnqRR044Phh2DXY+55o7uJ0V+hYZAcQYSuFWsc9q5PvyDHUSCe1Qxn/iBz+78s86zWnGag==}
+    engines: {node: '>=10'}
 
   pify@2.3.0:
     resolution: {integrity: sha512-udgsAY+fTnvv7kI7aaxbqwWNb0AHiB0qBO89PZKPkoTmGOgdbrHDKD+0B2X4uTfJ/FT1R09r9gTsjUjNJotuog==}
@@ -9693,14 +9667,17 @@ packages:
 
   rimraf@2.6.3:
     resolution: {integrity: sha512-mwqeW5XsA2qAejG46gYdENaxXjx9onRNCfn7L0duuP4hCuTIi/QO7PDK07KJfp1d+izWPrzEJDcSqBa0OZQriA==}
+    deprecated: Rimraf versions prior to v4 are no longer supported
     hasBin: true
 
   rimraf@2.7.1:
     resolution: {integrity: sha512-uWjbaKIK3T1OSVptzX7Nl6PvQ3qAGtKEtVRjRuazjfL3Bx5eI409VZSqgND+4UNnmzLVdPj9FqFJNPqBZFve4w==}
+    deprecated: Rimraf versions prior to v4 are no longer supported
     hasBin: true
 
   rimraf@3.0.2:
     resolution: {integrity: sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==}
+    deprecated: Rimraf versions prior to v4 are no longer supported
     hasBin: true
 
   ripemd160@2.0.2:
@@ -9818,9 +9795,6 @@ packages:
     resolution: {integrity: sha512-qqWzuOjSFOuqPjFe4NOsMLafToQQwBSOEpS+FwEt3A2V3vKubTquT3vmLTQpFgMXp8AlFWFuP1qKaJZOtPpVXg==}
     engines: {node: '>= 0.8.0'}
 
-  sentence-case@3.0.4:
-    resolution: {integrity: sha512-8LS0JInaQMCRoQ7YUytAo/xUu5W2XnQxV2HI/6uM6U7CITS1RqPElr30V6uIqyMKM9lJGRVFy5/4CuzcixNYSg==}
-
   serialize-error@2.1.0:
     resolution: {integrity: sha512-ghgmKt5o4Tly5yEG/UJp8qTd0AN7Xalw4XBtDEKP655B699qMEtra1WlXeE6WIvdEG481JvRxULKsInq/iNysw==}
     engines: {node: '>=0.10.0'}
@@ -9908,10 +9882,6 @@ packages:
     resolution: {integrity: sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==}
     engines: {node: '>=8'}
 
-  slash@4.0.0:
-    resolution: {integrity: sha512-3dOsAHXXUkQTpOYcoAxLIorMTp4gIQr5IW3iVb7A7lFIp0VHhnynm9izx6TssdrIcVIESAlVjtnO2K8bg+Coew==}
-    engines: {node: '>=12'}
-
   slash@5.1.0:
     resolution: {integrity: sha512-ZA6oR3T/pEyuqwMgAKT0/hAv8oAXckzbkmR0UkUosQ+Mc4RxGoJkRmwHgHufaenlyAgE1Mxgpdcrf75y6XcnDg==}
     engines: {node: '>=14.16'}
@@ -9924,9 +9894,6 @@ packages:
     resolution: {integrity: sha512-qMCMfhY040cVHT43K9BFygqYbUPFZKHOg7K73mtTWJRb8pyP3fzf4Ixd5SzdEJQ6MRUg/WBnOLxghZtKKurENQ==}
     engines: {node: '>=10'}
 
-  snake-case@3.0.4:
-    resolution: {integrity: sha512-LAOh4z89bGQvl9pFfNF8V146i7o7/CqFPbqzYgP+yYzDIDeS9HaNFtXABamRW+AQzEVODcvE79ljJ+8a9YSdMg==}
-
   socket.io-client@4.7.5:
     resolution: {integrity: sha512-sJ/tqHOCe7Z50JCBCXrsY3I2k03iOiUe+tj1OmKeD2lXPiGH/RUCdTZFoqVyN7l1MnpIzPrGtLcijffmeouNlQ==}
     engines: {node: '>=10.0.0'}
@@ -9935,8 +9902,8 @@ packages:
     resolution: {integrity: sha512-/GbIKmo8ioc+NIWIhwdecY0ge+qVBSMdgxGygevmdHj24bsfgtCmcUUcQ5ZzcylGFHsN3k4HB4Cgkl96KVnuew==}
     engines: {node: '>=10.0.0'}
 
-  solady@https://codeload.github.com/Vectorized/solady/tar.gz/de0f336d2033d04e0f77c923d639c7fbffd48b6d:
-    resolution: {tarball: https://codeload.github.com/Vectorized/solady/tar.gz/de0f336d2033d04e0f77c923d639c7fbffd48b6d}
+  solady@git+https://git@github.com:Vectorized/solady.git#de0f336d2033d04e0f77c923d639c7fbffd48b6d:
+    resolution: {commit: de0f336d2033d04e0f77c923d639c7fbffd48b6d, repo: git@github.com:Vectorized/solady.git, type: git}
     version: 0.0.167
 
   solc@0.8.24:
@@ -9952,8 +9919,8 @@ packages:
     resolution: {integrity: sha512-QeQLS9HGCnIiibt+xiOa/+MuP7BWz9N7C5+Mj9pLHshdkNhuo3AzCpWmjfWVZBUuwIUO3YyCRVIcYLR3YOKGfg==}
     hasBin: true
 
-  solidity-stringutils@https://codeload.github.com/Arachnid/solidity-stringutils/tar.gz/4b2fcc43fa0426e19ce88b1f1ec16f5903a2e461:
-    resolution: {tarball: https://codeload.github.com/Arachnid/solidity-stringutils/tar.gz/4b2fcc43fa0426e19ce88b1f1ec16f5903a2e461}
+  solidity-stringutils@git+https://git@github.com:Arachnid/solidity-stringutils.git#4b2fcc43fa0426e19ce88b1f1ec16f5903a2e461:
+    resolution: {commit: 4b2fcc43fa0426e19ce88b1f1ec16f5903a2e461, repo: git@github.com:Arachnid/solidity-stringutils.git, type: git}
     version: 0.0.0
 
   sonic-boom@2.8.0:
@@ -10761,12 +10728,6 @@ packages:
     hasBin: true
     peerDependencies:
       browserslist: '>= 4.21.0'
-
-  upper-case-first@2.0.2:
-    resolution: {integrity: sha512-514ppYHBaKwfJRK/pNC6c/OxfGa0obSnAl106u97Ed0I625Nin96KAjttZF6ZL3e1XLtphxnqrOi9iWgm+u+bg==}
-
-  upper-case@2.0.2:
-    resolution: {integrity: sha512-KgdgDGJt2TpuwBUIjgG6lzw2GWFRCW9Qkfkiv0DxqHHLYJHmtmdUIKcZd8rHgFSjopVTlw6ggzCm1b8MFQwikg==}
 
   uqr@0.1.2:
     resolution: {integrity: sha512-MJu7ypHq6QasgF5YRTjqscSzQp/W11zoUk6kvmlH+fmWEs63Y0Eib13hYFwAzagRJcVY8WVnlV+eBDUGMJ5IbA==}
@@ -11622,10 +11583,10 @@ snapshots:
       '@aws-crypto/sha1-browser': 3.0.0
       '@aws-crypto/sha256-browser': 3.0.0
       '@aws-crypto/sha256-js': 3.0.0
-      '@aws-sdk/client-sso-oidc': 3.575.0(@aws-sdk/client-sts@3.575.0)
-      '@aws-sdk/client-sts': 3.575.0
+      '@aws-sdk/client-sso-oidc': 3.575.0
+      '@aws-sdk/client-sts': 3.575.0(@aws-sdk/client-sso-oidc@3.575.0)
       '@aws-sdk/core': 3.575.0
-      '@aws-sdk/credential-provider-node': 3.575.0(@aws-sdk/client-sso-oidc@3.575.0)(@aws-sdk/client-sts@3.575.0)
+      '@aws-sdk/credential-provider-node': 3.575.0(@aws-sdk/client-sso-oidc@3.575.0)(@aws-sdk/client-sts@3.575.0(@aws-sdk/client-sso-oidc@3.575.0))
       '@aws-sdk/middleware-bucket-endpoint': 3.575.0
       '@aws-sdk/middleware-expect-continue': 3.575.0
       '@aws-sdk/middleware-flexible-checksums': 3.575.0
@@ -11680,13 +11641,13 @@ snapshots:
     transitivePeerDependencies:
       - aws-crt
 
-  '@aws-sdk/client-sso-oidc@3.575.0(@aws-sdk/client-sts@3.575.0)':
+  '@aws-sdk/client-sso-oidc@3.575.0':
     dependencies:
       '@aws-crypto/sha256-browser': 3.0.0
       '@aws-crypto/sha256-js': 3.0.0
-      '@aws-sdk/client-sts': 3.575.0
+      '@aws-sdk/client-sts': 3.575.0(@aws-sdk/client-sso-oidc@3.575.0)
       '@aws-sdk/core': 3.575.0
-      '@aws-sdk/credential-provider-node': 3.575.0(@aws-sdk/client-sso-oidc@3.575.0)(@aws-sdk/client-sts@3.575.0)
+      '@aws-sdk/credential-provider-node': 3.575.0(@aws-sdk/client-sso-oidc@3.575.0)(@aws-sdk/client-sts@3.575.0(@aws-sdk/client-sso-oidc@3.575.0))
       '@aws-sdk/middleware-host-header': 3.575.0
       '@aws-sdk/middleware-logger': 3.575.0
       '@aws-sdk/middleware-recursion-detection': 3.575.0
@@ -11723,7 +11684,6 @@ snapshots:
       '@smithy/util-utf8': 3.0.0
       tslib: 2.6.2
     transitivePeerDependencies:
-      - '@aws-sdk/client-sts'
       - aws-crt
 
   '@aws-sdk/client-sso@3.575.0':
@@ -11769,13 +11729,13 @@ snapshots:
     transitivePeerDependencies:
       - aws-crt
 
-  '@aws-sdk/client-sts@3.575.0':
+  '@aws-sdk/client-sts@3.575.0(@aws-sdk/client-sso-oidc@3.575.0)':
     dependencies:
       '@aws-crypto/sha256-browser': 3.0.0
       '@aws-crypto/sha256-js': 3.0.0
-      '@aws-sdk/client-sso-oidc': 3.575.0(@aws-sdk/client-sts@3.575.0)
+      '@aws-sdk/client-sso-oidc': 3.575.0
       '@aws-sdk/core': 3.575.0
-      '@aws-sdk/credential-provider-node': 3.575.0(@aws-sdk/client-sso-oidc@3.575.0)(@aws-sdk/client-sts@3.575.0)
+      '@aws-sdk/credential-provider-node': 3.575.0(@aws-sdk/client-sso-oidc@3.575.0)(@aws-sdk/client-sts@3.575.0(@aws-sdk/client-sso-oidc@3.575.0))
       '@aws-sdk/middleware-host-header': 3.575.0
       '@aws-sdk/middleware-logger': 3.575.0
       '@aws-sdk/middleware-recursion-detection': 3.575.0
@@ -11812,6 +11772,7 @@ snapshots:
       '@smithy/util-utf8': 3.0.0
       tslib: 2.6.2
     transitivePeerDependencies:
+      - '@aws-sdk/client-sso-oidc'
       - aws-crt
 
   '@aws-sdk/core@3.575.0':
@@ -11843,13 +11804,13 @@ snapshots:
       '@smithy/util-stream': 3.0.0
       tslib: 2.6.2
 
-  '@aws-sdk/credential-provider-ini@3.575.0(@aws-sdk/client-sso-oidc@3.575.0)(@aws-sdk/client-sts@3.575.0)':
+  '@aws-sdk/credential-provider-ini@3.575.0(@aws-sdk/client-sso-oidc@3.575.0)(@aws-sdk/client-sts@3.575.0(@aws-sdk/client-sso-oidc@3.575.0))':
     dependencies:
-      '@aws-sdk/client-sts': 3.575.0
+      '@aws-sdk/client-sts': 3.575.0(@aws-sdk/client-sso-oidc@3.575.0)
       '@aws-sdk/credential-provider-env': 3.575.0
       '@aws-sdk/credential-provider-process': 3.575.0
       '@aws-sdk/credential-provider-sso': 3.575.0(@aws-sdk/client-sso-oidc@3.575.0)
-      '@aws-sdk/credential-provider-web-identity': 3.575.0(@aws-sdk/client-sts@3.575.0)
+      '@aws-sdk/credential-provider-web-identity': 3.575.0(@aws-sdk/client-sts@3.575.0(@aws-sdk/client-sso-oidc@3.575.0))
       '@aws-sdk/types': 3.575.0
       '@smithy/credential-provider-imds': 3.0.0
       '@smithy/property-provider': 3.0.0
@@ -11860,14 +11821,14 @@ snapshots:
       - '@aws-sdk/client-sso-oidc'
       - aws-crt
 
-  '@aws-sdk/credential-provider-node@3.575.0(@aws-sdk/client-sso-oidc@3.575.0)(@aws-sdk/client-sts@3.575.0)':
+  '@aws-sdk/credential-provider-node@3.575.0(@aws-sdk/client-sso-oidc@3.575.0)(@aws-sdk/client-sts@3.575.0(@aws-sdk/client-sso-oidc@3.575.0))':
     dependencies:
       '@aws-sdk/credential-provider-env': 3.575.0
       '@aws-sdk/credential-provider-http': 3.575.0
-      '@aws-sdk/credential-provider-ini': 3.575.0(@aws-sdk/client-sso-oidc@3.575.0)(@aws-sdk/client-sts@3.575.0)
+      '@aws-sdk/credential-provider-ini': 3.575.0(@aws-sdk/client-sso-oidc@3.575.0)(@aws-sdk/client-sts@3.575.0(@aws-sdk/client-sso-oidc@3.575.0))
       '@aws-sdk/credential-provider-process': 3.575.0
       '@aws-sdk/credential-provider-sso': 3.575.0(@aws-sdk/client-sso-oidc@3.575.0)
-      '@aws-sdk/credential-provider-web-identity': 3.575.0(@aws-sdk/client-sts@3.575.0)
+      '@aws-sdk/credential-provider-web-identity': 3.575.0(@aws-sdk/client-sts@3.575.0(@aws-sdk/client-sso-oidc@3.575.0))
       '@aws-sdk/types': 3.575.0
       '@smithy/credential-provider-imds': 3.0.0
       '@smithy/property-provider': 3.0.0
@@ -11900,9 +11861,9 @@ snapshots:
       - '@aws-sdk/client-sso-oidc'
       - aws-crt
 
-  '@aws-sdk/credential-provider-web-identity@3.575.0(@aws-sdk/client-sts@3.575.0)':
+  '@aws-sdk/credential-provider-web-identity@3.575.0(@aws-sdk/client-sts@3.575.0(@aws-sdk/client-sso-oidc@3.575.0))':
     dependencies:
-      '@aws-sdk/client-sts': 3.575.0
+      '@aws-sdk/client-sts': 3.575.0(@aws-sdk/client-sso-oidc@3.575.0)
       '@aws-sdk/types': 3.575.0
       '@smithy/property-provider': 3.0.0
       '@smithy/types': 3.0.0
@@ -12029,7 +11990,7 @@ snapshots:
 
   '@aws-sdk/token-providers@3.575.0(@aws-sdk/client-sso-oidc@3.575.0)':
     dependencies:
-      '@aws-sdk/client-sso-oidc': 3.575.0(@aws-sdk/client-sts@3.575.0)
+      '@aws-sdk/client-sso-oidc': 3.575.0
       '@aws-sdk/types': 3.575.0
       '@smithy/property-provider': 3.0.0
       '@smithy/shared-ini-file-loader': 3.0.0
@@ -16848,53 +16809,27 @@ snapshots:
 
   '@vscode/l10n@0.0.18': {}
 
-  '@wagmi/cli@2.1.4(bufferutil@4.0.8)(typescript@5.4.5)':
+  '@wagmi/cli@2.1.13(bufferutil@4.0.8)(typescript@5.4.5)':
     dependencies:
-      abitype: 0.9.10(typescript@5.4.5)(zod@3.23.8)
+      abitype: 1.0.4(typescript@5.4.5)(zod@3.23.8)
       bundle-require: 4.1.0(esbuild@0.19.12)
       cac: 6.7.14
-      change-case: 4.1.2
+      change-case: 5.4.4
       chokidar: 3.6.0
       dedent: 0.7.0
       dotenv: 16.4.5
       dotenv-expand: 10.0.0
       esbuild: 0.19.12
       execa: 8.0.1
+      fdir: 6.1.1(picomatch@3.0.1)
       find-up: 6.3.0
       fs-extra: 11.2.0
-      globby: 13.2.2
       ora: 6.3.1
       pathe: 1.1.2
       picocolors: 1.0.0
+      picomatch: 3.0.1
       prettier: 3.2.5
       viem: 2.16.1(bufferutil@4.0.8)(typescript@5.4.5)(zod@3.23.8)
-      zod: 3.23.8
-    optionalDependencies:
-      typescript: 5.4.5
-    transitivePeerDependencies:
-      - bufferutil
-      - utf-8-validate
-
-  '@wagmi/cli@2.1.8(bufferutil@4.0.8)(typescript@5.4.5)':
-    dependencies:
-      abitype: 1.0.2(typescript@5.4.5)(zod@3.23.8)
-      bundle-require: 4.1.0(esbuild@0.19.12)
-      cac: 6.7.14
-      change-case: 4.1.2
-      chokidar: 3.6.0
-      dedent: 0.7.0
-      dotenv: 16.4.5
-      dotenv-expand: 10.0.0
-      esbuild: 0.19.12
-      execa: 8.0.1
-      find-up: 6.3.0
-      fs-extra: 11.2.0
-      globby: 13.2.2
-      ora: 6.3.1
-      pathe: 1.1.2
-      picocolors: 1.0.0
-      prettier: 3.2.5
-      viem: 2.13.1(bufferutil@4.0.8)(typescript@5.4.5)(zod@3.23.8)
       zod: 3.23.8
     optionalDependencies:
       typescript: 5.4.5
@@ -16908,7 +16843,7 @@ snapshots:
       '@metamask/sdk': 0.18.6(bufferutil@4.0.8)(encoding@0.1.13)(react-dom@18.3.1(react@18.3.1))(react-i18next@13.5.0(i18next@22.5.1)(react-dom@18.3.1(react@18.3.1))(react-native@0.74.1(@babel/core@7.24.5)(@babel/preset-env@7.24.5(@babel/core@7.24.5))(@types/react@18.3.2)(bufferutil@4.0.8)(encoding@0.1.13)(react@18.3.1))(react@18.3.1))(react-native@0.74.1(@babel/core@7.24.5)(@babel/preset-env@7.24.5(@babel/core@7.24.5))(@types/react@18.3.2)(bufferutil@4.0.8)(encoding@0.1.13)(react@18.3.1))(react@18.3.1)(rollup@4.17.2)
       '@safe-global/safe-apps-provider': 0.18.1(bufferutil@4.0.8)(typescript@5.4.5)(zod@3.23.8)
       '@safe-global/safe-apps-sdk': 8.1.0(bufferutil@4.0.8)(typescript@5.4.5)(zod@3.23.8)
-      '@wagmi/core': 2.9.3(@types/react@18.3.2)(bufferutil@4.0.8)(react@18.3.1)(typescript@5.4.5)(utf-8-validate@6.0.3)(viem@2.10.2(bufferutil@4.0.8)(typescript@5.4.5)(utf-8-validate@6.0.3)(zod@3.23.8))(zod@3.23.8)
+      '@wagmi/core': 2.9.3(@types/react@18.3.2)(bufferutil@4.0.8)(react@18.3.1)(typescript@5.4.5)(viem@2.10.2(bufferutil@4.0.8)(typescript@5.4.5)(zod@3.23.8))(zod@3.23.8)
       '@walletconnect/ethereum-provider': 2.13.0(@types/react@18.3.2)(bufferutil@4.0.8)(encoding@0.1.13)(react@18.3.1)
       '@walletconnect/modal': 2.6.2(@types/react@18.3.2)(react@18.3.1)
       viem: 2.10.2(bufferutil@4.0.8)(typescript@5.4.5)(utf-8-validate@6.0.3)(zod@3.23.8)
@@ -17037,6 +16972,22 @@ snapshots:
       - zod
 
   '@wagmi/core@2.9.3(@types/react@18.3.2)(bufferutil@4.0.8)(react@18.3.1)(typescript@5.4.5)(utf-8-validate@6.0.3)(viem@2.10.2(bufferutil@4.0.8)(typescript@5.4.5)(utf-8-validate@6.0.3)(zod@3.23.8))(zod@3.23.8)':
+    dependencies:
+      eventemitter3: 5.0.1
+      mipd: 0.0.5(bufferutil@4.0.8)(typescript@5.4.5)(utf-8-validate@6.0.3)(zod@3.23.8)
+      viem: 2.10.2(bufferutil@4.0.8)(typescript@5.4.5)(utf-8-validate@6.0.3)(zod@3.23.8)
+      zustand: 4.4.1(@types/react@18.3.2)(react@18.3.1)
+    optionalDependencies:
+      typescript: 5.4.5
+    transitivePeerDependencies:
+      - '@types/react'
+      - bufferutil
+      - immer
+      - react
+      - utf-8-validate
+      - zod
+
+  '@wagmi/core@2.9.3(@types/react@18.3.2)(bufferutil@4.0.8)(react@18.3.1)(typescript@5.4.5)(viem@2.10.2(bufferutil@4.0.8)(typescript@5.4.5)(zod@3.23.8))(zod@3.23.8)':
     dependencies:
       eventemitter3: 5.0.1
       mipd: 0.0.5(bufferutil@4.0.8)(typescript@5.4.5)(utf-8-validate@6.0.3)(zod@3.23.8)
@@ -17650,25 +17601,8 @@ snapshots:
       lit: 3.1.0
       qrcode: 1.5.3
 
-  ? '@web3modal/wagmi@4.1.11(@types/react@18.3.2)(@wagmi/connectors@4.3.5(@types/react@18.3.2)(@wagmi/core@2.9.3(@types/react@18.3.2)(bufferutil@4.0.8)(react@18.3.1)(typescript@5.4.5)(viem@2.10.2(bufferutil@4.0.8)(typescript@5.4.5)(zod@3.23.8))(zod@3.23.8))(bufferutil@4.0.8)(encoding@0.1.13)(react-dom@18.3.1(react@18.3.1))(react-i18next@13.5.0(i18next@22.5.1)(react-dom@18.3.1(react@18.3.1))(react-native@0.74.1(@babel/core@7.24.5)(@babel/preset-env@7.24.5(@babel/core@7.24.5))(@types/react@18.3.2)(bufferutil@4.0.8)(encoding@0.1.13)(react@18.3.1))(react@18.3.1))(react-native@0.74.1(@babel/core@7.24.5)(@babel/preset-env@7.24.5(@babel/core@7.24.5))(@types/react@18.3.2)(bufferutil@4.0.8)(encoding@0.1.13)(react@18.3.1))(react@18.3.1)(rollup@4.17.2)(typescript@5.4.5)(viem@2.10.2(bufferutil@4.0.8)(typescript@5.4.5)(zod@3.23.8))(zod@3.23.8))(@wagmi/core@2.9.3(@types/react@18.3.2)(bufferutil@4.0.8)(react@18.3.1)(typescript@5.4.5)(viem@2.10.2(bufferutil@4.0.8)(typescript@5.4.5)(zod@3.23.8))(zod@3.23.8))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(viem@2.10.2(bufferutil@4.0.8)(typescript@5.4.5)(zod@3.23.8))'
-  : dependencies:
-      '@wagmi/connectors': 4.3.5(@types/react@18.3.2)(@wagmi/core@2.9.3(@types/react@18.3.2)(bufferutil@4.0.8)(react@18.3.1)(typescript@5.4.5)(viem@2.10.2(bufferutil@4.0.8)(typescript@5.4.5)(zod@3.23.8))(zod@3.23.8))(bufferutil@4.0.8)(encoding@0.1.13)(react-dom@18.3.1(react@18.3.1))(react-i18next@13.5.0(i18next@22.5.1)(react-dom@18.3.1(react@18.3.1))(react-native@0.74.1(@babel/core@7.24.5)(@babel/preset-env@7.24.5(@babel/core@7.24.5))(@types/react@18.3.2)(bufferutil@4.0.8)(encoding@0.1.13)(react@18.3.1))(react@18.3.1))(react-native@0.74.1(@babel/core@7.24.5)(@babel/preset-env@7.24.5(@babel/core@7.24.5))(@types/react@18.3.2)(bufferutil@4.0.8)(encoding@0.1.13)(react@18.3.1))(react@18.3.1)(rollup@4.17.2)(typescript@5.4.5)(viem@2.10.2(bufferutil@4.0.8)(typescript@5.4.5)(zod@3.23.8))(zod@3.23.8)
-      '@wagmi/core': 2.9.3(@types/react@18.3.2)(bufferutil@4.0.8)(react@18.3.1)(typescript@5.4.5)(utf-8-validate@6.0.3)(viem@2.10.2(bufferutil@4.0.8)(typescript@5.4.5)(utf-8-validate@6.0.3)(zod@3.23.8))(zod@3.23.8)
-      '@web3modal/polyfills': 4.1.11
-      '@web3modal/scaffold': 4.1.11(@types/react@18.3.2)(react@18.3.1)
-      '@web3modal/scaffold-react': 4.1.11(@types/react@18.3.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@web3modal/scaffold-utils': 4.1.11(@types/react@18.3.2)(react@18.3.1)
-      '@web3modal/scaffold-vue': 4.1.11(@types/react@18.3.2)(react@18.3.1)
-      '@web3modal/siwe': 4.1.11(@types/react@18.3.2)(react@18.3.1)
-      viem: 2.10.2(bufferutil@4.0.8)(typescript@5.4.5)(utf-8-validate@6.0.3)(zod@3.23.8)
-    optionalDependencies:
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-    transitivePeerDependencies:
-      - '@types/react'
-
-  ? '@web3modal/wagmi@4.1.11(@types/react@18.3.2)(@wagmi/connectors@4.3.5(@types/react@18.3.2)(@wagmi/core@2.9.3(@types/react@18.3.2)(bufferutil@4.0.8)(react@18.3.1)(typescript@5.4.5)(viem@2.16.1(bufferutil@4.0.8)(typescript@5.4.5)(zod@3.23.8))(zod@3.23.8))(bufferutil@4.0.8)(encoding@0.1.13)(react-dom@18.3.1(react@18.3.1))(react-i18next@13.5.0(i18next@22.5.1)(react-dom@18.3.1(react@18.3.1))(react-native@0.74.1(@babel/core@7.24.5)(@babel/preset-env@7.24.5(@babel/core@7.24.5))(@types/react@18.3.2)(bufferutil@4.0.8)(encoding@0.1.13)(react@18.3.1))(react@18.3.1))(react-native@0.74.1(@babel/core@7.24.5)(@babel/preset-env@7.24.5(@babel/core@7.24.5))(@types/react@18.3.2)(bufferutil@4.0.8)(encoding@0.1.13)(react@18.3.1))(react@18.3.1)(rollup@4.17.2)(typescript@5.4.5)(viem@2.16.1(bufferutil@4.0.8)(typescript@5.4.5)(zod@3.23.8))(zod@3.23.8))(@wagmi/core@2.9.3(@types/react@18.3.2)(bufferutil@4.0.8)(react@18.3.1)(typescript@5.4.5)(viem@2.16.1(bufferutil@4.0.8)(typescript@5.4.5)(zod@3.23.8))(zod@3.23.8))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(viem@2.16.1(bufferutil@4.0.8)(typescript@5.4.5)(zod@3.23.8))'
-  : dependencies:
+  '@web3modal/wagmi@4.1.11(2u7o5rhjvzr5px7ragqvzuquvy)':
+    dependencies:
       '@wagmi/connectors': 4.3.5(@types/react@18.3.2)(@wagmi/core@2.9.3(@types/react@18.3.2)(bufferutil@4.0.8)(react@18.3.1)(typescript@5.4.5)(viem@2.16.1(bufferutil@4.0.8)(typescript@5.4.5)(zod@3.23.8))(zod@3.23.8))(bufferutil@4.0.8)(encoding@0.1.13)(react-dom@18.3.1(react@18.3.1))(react-i18next@13.5.0(i18next@22.5.1)(react-dom@18.3.1(react@18.3.1))(react-native@0.74.1(@babel/core@7.24.5)(@babel/preset-env@7.24.5(@babel/core@7.24.5))(@types/react@18.3.2)(bufferutil@4.0.8)(encoding@0.1.13)(react@18.3.1))(react@18.3.1))(react-native@0.74.1(@babel/core@7.24.5)(@babel/preset-env@7.24.5(@babel/core@7.24.5))(@types/react@18.3.2)(bufferutil@4.0.8)(encoding@0.1.13)(react@18.3.1))(react@18.3.1)(rollup@4.17.2)(typescript@5.4.5)(viem@2.16.1(bufferutil@4.0.8)(typescript@5.4.5)(zod@3.23.8))(zod@3.23.8)
       '@wagmi/core': 2.9.3(@types/react@18.3.2)(bufferutil@4.0.8)(react@18.3.1)(typescript@5.4.5)(viem@2.16.1(bufferutil@4.0.8)(typescript@5.4.5)(zod@3.23.8))(zod@3.23.8)
       '@web3modal/polyfills': 4.1.11
@@ -17684,8 +17618,25 @@ snapshots:
     transitivePeerDependencies:
       - '@types/react'
 
-  ? '@web3modal/wagmi@4.2.2(@types/react@18.3.2)(@wagmi/connectors@5.0.6(@types/react@18.3.2)(@wagmi/core@2.10.4(@types/react@18.3.2)(bufferutil@4.0.8)(react@18.3.1)(typescript@5.4.5)(viem@2.13.1(bufferutil@4.0.8)(typescript@5.4.5)(zod@3.23.8))(zod@3.23.8))(bufferutil@4.0.8)(encoding@0.1.13)(react-dom@18.3.1(react@18.3.1))(react-i18next@13.5.0(i18next@22.5.1)(react-dom@18.3.1(react@18.3.1))(react-native@0.74.1(@babel/core@7.24.5)(@babel/preset-env@7.24.5(@babel/core@7.24.5))(@types/react@18.3.2)(bufferutil@4.0.8)(encoding@0.1.13)(react@18.3.1))(react@18.3.1))(react-native@0.74.1(@babel/core@7.24.5)(@babel/preset-env@7.24.5(@babel/core@7.24.5))(@types/react@18.3.2)(bufferutil@4.0.8)(encoding@0.1.13)(react@18.3.1))(react@18.3.1)(rollup@4.17.2)(typescript@5.4.5)(viem@2.13.1(bufferutil@4.0.8)(typescript@5.4.5)(zod@3.23.8))(zod@3.23.8))(@wagmi/core@2.10.4(@types/react@18.3.2)(bufferutil@4.0.8)(react@18.3.1)(typescript@5.4.5)(viem@2.13.1(bufferutil@4.0.8)(typescript@5.4.5)(zod@3.23.8))(zod@3.23.8))(bufferutil@4.0.8)(encoding@0.1.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(viem@2.13.1(bufferutil@4.0.8)(typescript@5.4.5)(zod@3.23.8))'
-  : dependencies:
+  '@web3modal/wagmi@4.1.11(hpcgh6g2rvdmo45vj2dlv7p2i4)':
+    dependencies:
+      '@wagmi/connectors': 4.3.5(@types/react@18.3.2)(@wagmi/core@2.9.3(@types/react@18.3.2)(bufferutil@4.0.8)(react@18.3.1)(typescript@5.4.5)(viem@2.10.2(bufferutil@4.0.8)(typescript@5.4.5)(zod@3.23.8))(zod@3.23.8))(bufferutil@4.0.8)(encoding@0.1.13)(react-dom@18.3.1(react@18.3.1))(react-i18next@13.5.0(i18next@22.5.1)(react-dom@18.3.1(react@18.3.1))(react-native@0.74.1(@babel/core@7.24.5)(@babel/preset-env@7.24.5(@babel/core@7.24.5))(@types/react@18.3.2)(bufferutil@4.0.8)(encoding@0.1.13)(react@18.3.1))(react@18.3.1))(react-native@0.74.1(@babel/core@7.24.5)(@babel/preset-env@7.24.5(@babel/core@7.24.5))(@types/react@18.3.2)(bufferutil@4.0.8)(encoding@0.1.13)(react@18.3.1))(react@18.3.1)(rollup@4.17.2)(typescript@5.4.5)(viem@2.10.2(bufferutil@4.0.8)(typescript@5.4.5)(zod@3.23.8))(zod@3.23.8)
+      '@wagmi/core': 2.9.3(@types/react@18.3.2)(bufferutil@4.0.8)(react@18.3.1)(typescript@5.4.5)(viem@2.10.2(bufferutil@4.0.8)(typescript@5.4.5)(zod@3.23.8))(zod@3.23.8)
+      '@web3modal/polyfills': 4.1.11
+      '@web3modal/scaffold': 4.1.11(@types/react@18.3.2)(react@18.3.1)
+      '@web3modal/scaffold-react': 4.1.11(@types/react@18.3.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@web3modal/scaffold-utils': 4.1.11(@types/react@18.3.2)(react@18.3.1)
+      '@web3modal/scaffold-vue': 4.1.11(@types/react@18.3.2)(react@18.3.1)
+      '@web3modal/siwe': 4.1.11(@types/react@18.3.2)(react@18.3.1)
+      viem: 2.10.2(bufferutil@4.0.8)(typescript@5.4.5)(utf-8-validate@6.0.3)(zod@3.23.8)
+    optionalDependencies:
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@types/react'
+
+  '@web3modal/wagmi@4.2.2(tkj5l3k7464ue4eznlfplmov7u)':
+    dependencies:
       '@wagmi/connectors': 5.0.6(@types/react@18.3.2)(@wagmi/core@2.10.4(@types/react@18.3.2)(bufferutil@4.0.8)(react@18.3.1)(typescript@5.4.5)(viem@2.13.1(bufferutil@4.0.8)(typescript@5.4.5)(zod@3.23.8))(zod@3.23.8))(bufferutil@4.0.8)(encoding@0.1.13)(react-dom@18.3.1(react@18.3.1))(react-i18next@13.5.0(i18next@22.5.1)(react-dom@18.3.1(react@18.3.1))(react-native@0.74.1(@babel/core@7.24.5)(@babel/preset-env@7.24.5(@babel/core@7.24.5))(@types/react@18.3.2)(bufferutil@4.0.8)(encoding@0.1.13)(react@18.3.1))(react@18.3.1))(react-native@0.74.1(@babel/core@7.24.5)(@babel/preset-env@7.24.5(@babel/core@7.24.5))(@types/react@18.3.2)(bufferutil@4.0.8)(encoding@0.1.13)(react@18.3.1))(react@18.3.1)(rollup@4.17.2)(typescript@5.4.5)(viem@2.13.1(bufferutil@4.0.8)(typescript@5.4.5)(zod@3.23.8))(zod@3.23.8)
       '@wagmi/core': 2.10.4(@types/react@18.3.2)(bufferutil@4.0.8)(react@18.3.1)(typescript@5.4.5)(viem@2.13.1(bufferutil@4.0.8)(typescript@5.4.5)(zod@3.23.8))(zod@3.23.8)
       '@walletconnect/ethereum-provider': 2.13.0(@types/react@18.3.2)(bufferutil@4.0.8)(encoding@0.1.13)(react@18.3.1)
@@ -17749,11 +17700,6 @@ snapshots:
   '@zerodevx/svelte-toast@0.9.5(svelte@4.2.16)':
     dependencies:
       svelte: 4.2.16
-
-  abitype@0.9.10(typescript@5.4.5)(zod@3.23.8):
-    optionalDependencies:
-      typescript: 5.4.5
-      zod: 3.23.8
 
   abitype@0.9.8(typescript@5.4.5)(zod@3.23.8):
     optionalDependencies:
@@ -18369,11 +18315,6 @@ snapshots:
 
   callsites@3.1.0: {}
 
-  camel-case@4.1.2:
-    dependencies:
-      pascal-case: 3.1.2
-      tslib: 2.6.2
-
   camelcase-css@2.0.1: {}
 
   camelcase@5.3.1: {}
@@ -18387,12 +18328,6 @@ snapshots:
   canvaskit-wasm@0.39.1:
     dependencies:
       '@webgpu/types': 0.1.21
-
-  capital-case@1.0.4:
-    dependencies:
-      no-case: 3.0.4
-      tslib: 2.6.2
-      upper-case-first: 2.0.2
 
   cborg@4.2.0: {}
 
@@ -18426,20 +18361,7 @@ snapshots:
 
   chalk@5.3.0: {}
 
-  change-case@4.1.2:
-    dependencies:
-      camel-case: 4.1.2
-      capital-case: 1.0.4
-      constant-case: 3.0.4
-      dot-case: 3.0.4
-      header-case: 2.0.4
-      no-case: 3.0.4
-      param-case: 3.0.4
-      pascal-case: 3.1.2
-      path-case: 3.0.4
-      sentence-case: 3.0.4
-      snake-case: 3.0.4
-      tslib: 2.6.2
+  change-case@5.4.4: {}
 
   character-entities-html4@2.1.0: {}
 
@@ -18650,12 +18572,6 @@ snapshots:
       - supports-color
 
   consola@3.2.3: {}
-
-  constant-case@3.0.4:
-    dependencies:
-      no-case: 3.0.4
-      tslib: 2.6.2
-      upper-case: 2.0.2
 
   content-disposition@0.5.4:
     dependencies:
@@ -19023,16 +18939,11 @@ snapshots:
       domelementtype: 2.3.0
       domhandler: 4.3.1
 
-  dot-case@3.0.4:
-    dependencies:
-      no-case: 3.0.4
-      tslib: 2.6.2
-
   dotenv-expand@10.0.0: {}
 
   dotenv@16.4.5: {}
 
-  ds-test@https://codeload.github.com/dapphub/ds-test/tar.gz/e282159d5170298eb2455a6c05280ab5a73a4ef0: {}
+  ds-test@git+https://git@github.com:dapphub/ds-test.git#e282159d5170298eb2455a6c05280ab5a73a4ef0: {}
 
   dset@3.1.3: {}
 
@@ -19986,6 +19897,10 @@ snapshots:
     dependencies:
       bser: 2.1.1
 
+  fdir@6.1.1(picomatch@3.0.1):
+    optionalDependencies:
+      picomatch: 3.0.1
+
   fetch-retry@5.0.6: {}
 
   file-entry-cache@6.0.1:
@@ -20100,9 +20015,9 @@ snapshots:
       cross-spawn: 7.0.3
       signal-exit: 4.1.0
 
-  forge-std@https://codeload.github.com/foundry-rs/forge-std/tar.gz/36c303b7ffdd842d06b1ec2744c9b9b5fb3083f3: {}
+  forge-std@git+https://git@github.com:foundry-rs/forge-std.git#07263d193d621c4b2b0ce8b4d54af58f6957d97d: {}
 
-  forge-std@https://codeload.github.com/foundry-rs/forge-std/tar.gz/52715a217dc51d0de15877878ab8213f6cbbbab5: {}
+  forge-std@git+https://git@github.com:foundry-rs/forge-std.git#36c303b7ffdd842d06b1ec2744c9b9b5fb3083f3: {}
 
   form-data-encoder@2.1.4: {}
 
@@ -20272,14 +20187,6 @@ snapshots:
       ignore: 5.3.1
       merge2: 1.4.1
       slash: 3.0.0
-
-  globby@13.2.2:
-    dependencies:
-      dir-glob: 3.0.1
-      fast-glob: 3.3.2
-      ignore: 5.3.1
-      merge2: 1.4.1
-      slash: 4.0.0
 
   globby@14.0.1:
     dependencies:
@@ -20560,11 +20467,6 @@ snapshots:
       hast-util-parse-selector: 4.0.0
       property-information: 6.5.0
       space-separated-tokens: 2.0.2
-
-  header-case@2.0.4:
-    dependencies:
-      capital-case: 1.0.4
-      tslib: 2.6.2
 
   hermes-estree@0.19.1: {}
 
@@ -22445,7 +22347,7 @@ snapshots:
 
   multiformats@9.9.0: {}
 
-  murky@https://codeload.github.com/dmfxyz/murky/tar.gz/5feccd1253d7da820f7cccccdedf64471025455d: {}
+  murky@git+https://git@github.com:dmfxyz/murky.git#5feccd1253d7da820f7cccccdedf64471025455d: {}
 
   mz@2.7.0:
     dependencies:
@@ -22772,7 +22674,7 @@ snapshots:
 
   p-try@2.2.0: {}
 
-  p256-verifier#v0.1.0@https://codeload.github.com/taikoxyz/p256-verifier/tar.gz/6ef45b117642786b08a37b4c37c6a6ce151166da: {}
+  p256-verifier#v0.1.0@git+https://git@github.com:taikoxyz/p256-verifier.git#6ef45b117642786b08a37b4c37c6a6ce151166da: {}
 
   package-json@8.1.1:
     dependencies:
@@ -22790,11 +22692,6 @@ snapshots:
       '@pagefind/windows-x64': 1.1.0
 
   pako@0.2.9: {}
-
-  param-case@3.0.4:
-    dependencies:
-      dot-case: 3.0.4
-      tslib: 2.6.2
 
   parent-module@1.0.1:
     dependencies:
@@ -22843,11 +22740,6 @@ snapshots:
       tslib: 2.6.2
 
   path-browserify@1.0.1: {}
-
-  path-case@3.0.4:
-    dependencies:
-      dot-case: 3.0.4
-      tslib: 2.6.2
 
   path-exists@3.0.0: {}
 
@@ -22903,6 +22795,8 @@ snapshots:
   picocolors@1.0.0: {}
 
   picomatch@2.3.1: {}
+
+  picomatch@3.0.1: {}
 
   pify@2.3.0: {}
 
@@ -23816,12 +23710,6 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  sentence-case@3.0.4:
-    dependencies:
-      no-case: 3.0.4
-      tslib: 2.6.2
-      upper-case-first: 2.0.2
-
   serialize-error@2.1.0: {}
 
   serve-static@1.15.0:
@@ -23938,8 +23826,6 @@ snapshots:
 
   slash@3.0.0: {}
 
-  slash@4.0.0: {}
-
   slash@5.1.0: {}
 
   slice-ansi@2.1.0:
@@ -23953,11 +23839,6 @@ snapshots:
       ansi-styles: 4.3.0
       astral-regex: 2.0.0
       is-fullwidth-code-point: 3.0.0
-
-  snake-case@3.0.4:
-    dependencies:
-      dot-case: 3.0.4
-      tslib: 2.6.2
 
   socket.io-client@4.7.5(bufferutil@4.0.8):
     dependencies:
@@ -23977,7 +23858,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  solady@https://codeload.github.com/Vectorized/solady/tar.gz/de0f336d2033d04e0f77c923d639c7fbffd48b6d: {}
+  solady@git+https://git@github.com:Vectorized/solady.git#de0f336d2033d04e0f77c923d639c7fbffd48b6d: {}
 
   solc@0.8.24:
     dependencies:
@@ -24041,7 +23922,7 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
-  solidity-stringutils@https://codeload.github.com/Arachnid/solidity-stringutils/tar.gz/4b2fcc43fa0426e19ce88b1f1ec16f5903a2e461: {}
+  solidity-stringutils@git+https://git@github.com:Arachnid/solidity-stringutils.git#4b2fcc43fa0426e19ce88b1f1ec16f5903a2e461: {}
 
   sonic-boom@2.8.0:
     dependencies:
@@ -24899,14 +24780,6 @@ snapshots:
       browserslist: 4.23.0
       escalade: 3.1.2
       picocolors: 1.0.0
-
-  upper-case-first@2.0.2:
-    dependencies:
-      tslib: 2.6.2
-
-  upper-case@2.0.2:
-    dependencies:
-      tslib: 2.6.2
 
   uqr@0.1.2: {}
 
